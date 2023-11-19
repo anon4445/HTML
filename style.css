@@ -1,0 +1,38 @@
+body {
+    font-size: "poppins" , sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background: linear-gradient(#2602f3, rgb(144, 0,255));
+    color: lavender;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem;
+}
+
+.form-input-group {
+    display: flex;
+    flex-direction: column;
+    margin-block: 1rem;
+}
+
+input, button {
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+input {
+    padding: 0 5px;
+}
+
+button {
+    padding-inline: 2rem;
+    background-color: aquamarine;
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
+}
